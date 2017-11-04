@@ -17,7 +17,7 @@ layout: default
       <div class="img__div">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           <p class="post-date" href= "{{post.date | prepend: site.baseurl }}">{{ post.date }}</p>
-         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% if post.featuredImg %}
+         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% if post.featuredImg %}</a>
 
               <img src="{{post.featuredImg}}" class="img__div--img" />
             </div>
